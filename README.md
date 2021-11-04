@@ -21,3 +21,40 @@ d’un étudiant.
 • float calcMoyenne() : pour calculer la moyenne d’un étudiant.
 • void afficheNotes() : pour afficher les notes d’un étudiant.
 Créer une classe TestNotes pour tester les deux classes.
+ 
+ <h3>Affichage</h3>
+
+ ```---La liste des notes de Ali sont:
+------ 16.0 ---> 1
+------ 15.3 ---> 2
+
+Ajout de la note: 10.0 ---> 3
+---La liste des notes de Ali sont:
+------ 16.0 ---> 1
+------ 15.3 ---> 2
+------ 10.0 ---> 3
+
+Ajout de la note: 8.0 ---> 2
+---La liste des notes de Ali sont:
+------ 16.0 ---> 1
+------ 15.3 ---> 2
+------ 10.0 ---> 3
+------ 8.0 ---> 2
+
+Suppression de la note: 8.0 ---> 2
+---La liste des notes de Ali sont:
+------ 16.0 ---> 1
+------ 15.3 ---> 2
+------ 10.0 ---> 3
+
+Suppression de la note d'indice 2: 10.0 ---> 3
+---La liste des notes de Ali sont:
+------ 16.0 ---> 1
+------ 15.3 ---> 2
+
+ Le relevé de notes de Ali est:
+ ----- Nombre de notes = 2
+ ----- Moyenne = 15,53
+ ----- Note faible = 15,30
+ ----- Note sup = 16,00
+```
